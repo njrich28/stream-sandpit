@@ -1,0 +1,5 @@
+.idea
+.vagrant
+akka-stream/target
+target
+token-service/target
