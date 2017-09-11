@@ -68,5 +68,6 @@ Vagrant.configure("2") do |config|
     sudo yum install -y wget java-1.8.0-openjdk-devel
     wget http://mirrors.ukfast.co.uk/sites/ftp.apache.org/kafka/0.11.0.0/kafka_2.12-0.11.0.0.tgz
     tar -xzf kafka_2.12-0.11.0.0.tgz
+    sudo chown vagrant:vagrant -R kafka_2.12-0.11.0.0
   SHELL
 end
